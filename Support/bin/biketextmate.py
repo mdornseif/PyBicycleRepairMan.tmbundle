@@ -30,7 +30,7 @@ def findDefinition():
     """ Find the definition of the item under the cursor.
     """
     file_path, row, col = getLocationOfCaret()
-    matches = list(brm.findDefinition(file_path, row, col))
+    matches = list(brm.findDefinitionByCoordinates(file_path, row, col))
     if len(matches) == 1:
         definition = matches[0]
         setCaretLocation(definition.filename, definition.lineno, definition.colno)
@@ -60,7 +60,7 @@ def rename():
     if new_name and new_name != old_name:
         # if we don't use the definition location, only the definition is renamed.
         # either there's a bug in BRM or I'm calling it incorrectly
-        matching_definitions = brm.findDefinition(file_path, row, col)
+        matching_definitions = brm.findDefinitionByCoordinates(file_path, row, col)
         try:
             definition = matching_definitions.next()
             brm.renameByCoordinates(definition.filename, definition.lineno, definition.colno, new_name)
