@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveModifiedFiles</string>
+	<key>command</key>
+	<string>biketextmate.py extractlocalvariable</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^B</string>
+	<key>name</key>
+	<string>Extract Local Variable</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>uuid</key>
+	<string>CFB12162-02A8-42D4-B0A3-CAC6C925A3CE</string>
+</dict>
+</plist>

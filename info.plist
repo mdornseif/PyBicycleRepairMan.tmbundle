@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Bicycle Repair Man</string>
+	<key>ordering</key>
+	<array>
+		<string>6A84E5EF-BBC0-49D6-8C37-91CE70DA53CA</string>
+		<string>D75A37D3-7774-449D-8B36-51A6F420D95A</string>
+		<string>79638D99-8EE4-407F-9B27-50E32AFD824E</string>
+		<string>2FDC9066-8E8D-48CE-BC06-2F47C191A5F1</string>
+		<string>CFB12162-02A8-42D4-B0A3-CAC6C925A3CE</string>
+	</array>
+	<key>uuid</key>
+	<string>BB423E7B-34FF-4DE4-BBE7-162040AA79DF</string>
+</dict>
+</plist>
