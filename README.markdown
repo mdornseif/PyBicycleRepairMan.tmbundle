@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 The biketextmate.py script was written by [David Coffin][1]. Paul Bissex
 [updated, extended and explained it][2]. The current state somewhat in flux.
 There is a Subversion Repository at
